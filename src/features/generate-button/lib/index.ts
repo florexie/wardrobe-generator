@@ -46,6 +46,7 @@ export enum ORNAMENTS {
   'lines' = 'LINES',
   'print' = 'PRINT',
   'geometric' = 'GEOMETRIC',
+  'rhinestones' = 'RHINESTONES',
 }
 
 export enum STYLES {
@@ -116,7 +117,7 @@ export const tops = [
   {
     src: Top10,
     colors: [COLORS.denim],
-    ornament: ORNAMENTS.print,
+    ornament: ORNAMENTS.rhinestones,
     styles: [STYLES.casual],
     id: 10,
   },
