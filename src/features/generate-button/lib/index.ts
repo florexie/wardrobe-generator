@@ -140,7 +140,7 @@ export const tops = [
   },
   {
     src: Top14,
-    colors: [COLORS.beige, COLORS.green, COLORS.pink],
+    colors: [COLORS.beige, COLORS.green],
     styles: [STYLES.casual],
     id: 14,
   },
