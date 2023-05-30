@@ -77,7 +77,7 @@ export const tops = [
   {
     src: Top4,
     colors: [COLORS.beige, COLORS.black],
-    styles: [STYLES.casual, STYLES.night],
+    styles: [STYLES.night],
     id: 4,
   },
   {
@@ -88,7 +88,7 @@ export const tops = [
   },
   {
     src: Top6,
-    colors: [COLORS.beige],
+    colors: [COLORS.beige, COLORS.green],
     ornament: ORNAMENTS.geometric,
     styles: [STYLES.casual],
     id: 6,
@@ -122,7 +122,7 @@ export const tops = [
   },
   {
     src: Top11,
-    colors: [COLORS.denim],
+    colors: [COLORS.brown],
     styles: [STYLES.night],
     id: 11,
   },
@@ -146,7 +146,7 @@ export const tops = [
   },
   {
     src: Top15,
-    colors: [COLORS.beige, COLORS.green],
+    colors: [COLORS.beige, COLORS.green, COLORS.pink],
     ornament: ORNAMENTS.geometric,
     styles: [STYLES.casual],
     id: 15,
@@ -182,9 +182,9 @@ export const bottoms = [
   },
   {
     src: Bottom9,
-    colors: [COLORS.red],
+    colors: [COLORS.red, COLORS.white],
     ornaments: ORNAMENTS.print,
-    styles: [STYLES.casual, STYLES.night],
+    styles: [STYLES.night],
     id: 9,
   },
   {
