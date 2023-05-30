@@ -232,12 +232,6 @@ export const getResult = (topImage: any, bottomImage: any) => {
     return 'MIS-MATCH';
   }
   if (
-    (topImage.colors.includes(COLORS.denim) && bottomImage.styles.includes(STYLES.night)) ||
-    (topImage.styles.includes(STYLES.night) && bottomImage.colors.includes(COLORS.denim))
-  ) {
-    return 'MIS-MATCH';
-  }
-  if (
     (topImage.styles.includes(STYLES.casual) && bottomImage.styles.includes(STYLES.casual)) ||
     (topImage.styles.includes(STYLES.night) && bottomImage.styles.includes(STYLES.night))
   ) {
