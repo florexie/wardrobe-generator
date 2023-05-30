@@ -69,7 +69,7 @@ export const tops = [
   },
   {
     src: Top3,
-    colors: [COLORS.white],
+    colors: [COLORS.white, COLORS.pink],
     ornament: ORNAMENTS.print,
     styles: [STYLES.casual],
     id: 3,
@@ -182,14 +182,14 @@ export const bottoms = [
   {
     src: Bottom8,
     colors: [COLORS.beige, COLORS.white],
-    ornaments: ORNAMENTS.geometric,
+    ornament: ORNAMENTS.geometric,
     styles: [STYLES.casual],
     id: 8,
   },
   {
     src: Bottom9,
     colors: [COLORS.red, COLORS.white],
-    ornaments: ORNAMENTS.print,
+    ornament: ORNAMENTS.print,
     styles: [STYLES.night],
     id: 9,
   },
@@ -202,7 +202,7 @@ export const bottoms = [
   {
     src: Bottom11,
     colors: [COLORS.beige],
-    ornaments: ORNAMENTS.lines,
+    ornament: ORNAMENTS.lines,
     styles: [STYLES.casual],
     id: 11,
   },
@@ -216,7 +216,7 @@ export const getResult = (topImage: any, bottomImage: any) => {
   if (new Set([...topImage.colors, ...bottomImage.colors]).size > 3) {
     return 'MIS-MATCH';
   }
-  if (topImage.ornament && bottomImage.ornament && topImage.ornament !== bottomImage.ornament) {
+  if (!!topImage.ornament && !!bottomImage.ornament && topImage.ornament !== bottomImage.ornament) {
     return 'MIS-MATCH';
   }
   if (
