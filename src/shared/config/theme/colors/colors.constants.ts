@@ -1,0 +1,11 @@
+export const COLOR_ACCENT = '#2DF6DE';
+export const COLOR_STROKE = '#5C5A75';
+export const COLOR_BG = '#191836';
+export const COLOR_WH = '#FFFFFF';
+export const COLOR_PURPURE = '#9B4DFF';
+export const COLOR_GRAY = '#C6C6C6';
+export const COLOR_RED = '#FF4040';
+export const COLOR_ACCENT_LIGHT = '#A2F9EE';
+export const COLOR_DARK = '#1C1931';
+export const COLOR_GRAY_LIGHT = '#80808B';
+export const COLOR_LIGHT_GRAY_INPUT = '#D8D8D8';
