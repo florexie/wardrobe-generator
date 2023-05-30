@@ -1,4 +1,4 @@
-export const COLOR_ACCENT = '#2DF6DE';
+export const COLOR_ACCENT = '#FF00BD';
 export const COLOR_STROKE = '#5C5A75';
 export const COLOR_BG = '#191836';
 export const COLOR_WH = '#FFFFFF';

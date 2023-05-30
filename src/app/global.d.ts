@@ -5,3 +5,8 @@ declare module '@mui/material' {
     themeColors: typeof colorThemes;
   }
 }
+
+declare module '*.jpg' {
+  const content: string;
+  export default content;
+}

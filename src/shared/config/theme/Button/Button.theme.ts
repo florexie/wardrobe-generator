@@ -11,7 +11,7 @@ export const getMuiButtonOverrides = (theme: Theme): ComponentsOverrides['MuiBut
     fontFamily: FontFamilies.primary,
     fontWeight: FontWeights.SemiBold,
     fontSize: 18,
-    textTransform: 'capitalize',
+    textTransform: 'uppercase',
     boxShadow: 'none',
     '&:disabled': {
       color: theme.themeColors.colorButtonBorderDisabled,
@@ -49,4 +49,5 @@ export const getMuiButtonDefaultProps = (): ComponentsProps['MuiButton'] => ({
   disableFocusRipple: true,
   disableRipple: true,
   size: 'medium',
+  variant: 'contained',
 });
