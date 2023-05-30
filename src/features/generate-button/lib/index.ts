@@ -88,7 +88,7 @@ export const tops = [
   },
   {
     src: Top6,
-    colors: [COLORS.beige, COLORS.green],
+    colors: [COLORS.beige],
     ornament: ORNAMENTS.geometric,
     styles: [STYLES.casual],
     id: 6,
