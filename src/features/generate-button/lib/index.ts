@@ -140,20 +140,20 @@ export const tops = [
   },
   {
     src: Top14,
-    colors: [COLORS.beige],
+    colors: [COLORS.beige, COLORS.green, COLORS.pink],
     styles: [STYLES.casual],
     id: 14,
   },
   {
     src: Top15,
-    colors: [COLORS.beige, COLORS.green, COLORS.pink],
+    colors: [COLORS.denim],
     ornament: ORNAMENTS.geometric,
     styles: [STYLES.casual],
     id: 15,
   },
   {
     src: Top16,
-    colors: [COLORS.denim],
+    colors: [COLORS.white],
     styles: [STYLES.casual],
     id: 16,
   },
