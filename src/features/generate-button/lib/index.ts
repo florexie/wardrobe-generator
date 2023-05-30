@@ -82,7 +82,7 @@ export const tops = [
   },
   {
     src: Top5,
-    colors: [COLORS.blue, COLORS.white],
+    colors: [COLORS.blue],
     styles: [STYLES.casual],
     id: 5,
   },
