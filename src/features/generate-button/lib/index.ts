@@ -213,15 +213,15 @@ export const generateRandomInteger = (min: number, max: number) => {
 };
 
 export const getResult = (topImage: any, bottomImage: any) => {
-  if (topImage.colors.length + bottomImage.colors.length > 3) {
+  if (new Set([...topImage.colors, ...bottomImage.colors]).size > 3) {
     return 'MIS-MATCH';
   }
   if (topImage.ornament && bottomImage.ornament && topImage.ornament !== bottomImage.ornament) {
     return 'MIS-MATCH';
   }
   if (
-    (topImage.colors.includes(COLORS.blue) && topImage.colors.includes(COLORS.brown)) ||
-    (topImage.colors.includes(COLORS.brown) && topImage.colors.includes(COLORS.blue))
+    (topImage.colors.includes(COLORS.red) && topImage.colors.includes(COLORS.brown)) ||
+    (topImage.colors.includes(COLORS.brown) && topImage.colors.includes(COLORS.red))
   ) {
     return 'MIS-MATCH';
   }
